@@ -3,6 +3,8 @@ busid=1
 debug=true
 debug_lcd=true
 logdir=./logs
+logtofile=true
+logfile=r2.log
 
 [body]
 address=0x40
@@ -27,3 +29,4 @@ script_dir=./scripts
 
 [monitoring]
 address=0x04
+interval=30
